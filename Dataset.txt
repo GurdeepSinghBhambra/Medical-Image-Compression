@@ -1,0 +1,4 @@
+Dataset Link: https://www.kaggle.com/nih-chest-xrays/data
+Dataset Title: NIH Chest X-rays
+Description: Over 112,000 Chest X-ray images from more than 30,000 unique patients
+Size: 42GB approx

@@ -1,0 +1,34 @@
+
+ .h1{
+  margin-top: 100px;
+
+}
+.button {height: 70px;
+         width:50px;
+        align-content: center;
+        padding: 20px;
+         text-align: center;}
+         body {
+background-image: url("images/sample.jpg");
+}
+
+.p{
+left: 0;
+bottom: 0;
+width: 100%;
+height:50px;
+background-color: red;
+color: white;
+text-align: center;
+}
+.footer{
+    position: fixed;;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height:50px;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
+  

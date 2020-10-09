@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        body {
+          margin: 0;
+          font-family: Arial, Helvetica, sans-serif;
+          background-image: url('images/Untitled.jpg');
+        }
+        
+        .topnav {
+          overflow: hidden;
+          background-color: #333;
+        }
+        
+        .topnav a {
+          float: left;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+        }
+        
+        .topnav a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+        
+        .topnav a.active {
+          background-color: #7f9892;
+          color: white;
+        }
+        
+        .topnav a.heading {
+          background-color: rgb(76, 175, 162);
+          color: white;
+        }
+        
+        .topnav-right {
+          float: right;
+        }
+        .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        height:34px;
+        width:100%;
+        background-color: red;
+        color: white;
+        text-align: center;
+        }
+
+
+
+
+
+        </style>
+        </head>
+        <body>
+        
+
+            <div class="topnav">
+                    <a class="heading">Medical Image Compression</a>
+            
+              <div class="topnav-right">
+                    <a class="active" href="home1.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="team.html">Team</a>
+                    <a href="contact.html">Contact</a>
+              
+                
+              </div>
+            </div>
+        
+
+
+
+  
+ 
+		<meta charset="UTF-8">
+		<title>Image compression</title>
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&display=swap" rel="stylesheet">
+   
+
+  
+  <br>
+  
+
+<h1 align="center"><b>Image Directory</b></h1>
+<div align="center" >
+ 
+    <img src="images/file1.png" height="310"><br>
+    <a href="guidelines.html"style="color:red">Click here for Guidelines</a><br>
+    <label><h3><b>Choose Image Directory:</b></h3></label>
+</div>
+
+<div align="center">
+    <form action='/autoencode' method="post" enctype="multipart/form-data">
+      <input type="file" name="zip_file" accept='.zip'/>
+      <input type="submit"/>
+    </form>
+</div>
+
+
+    <div class="footer" align="center" id="footer" >
+        <p style="padding-top:0px;"><b>Made with &hearts; for Minor Project</b></p>
+    </div>
+      
+      
+    
+</body>
+</html>
