@@ -620,7 +620,6 @@ print("Test Accuracy =", test_accuracy[-1])
 
 
 Hopefully, i was able to clear your doubts regarding how to use this library and how to use it with the neural networks.
-If any doubts, contact me.
 
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
