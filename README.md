@@ -7,7 +7,7 @@ Used anaconda to develop the project.
 Hosted the website on aws ec2 ubuntu instance (For demonstartion purposes, use the 'app' directory for that).
 
 Directories:
-  Dev: This folder contains the code and python modules to extract, preprocess data. OIt also has the model training code.
+  Dev: This folder contains the code and python modules to extract, preprocess data. It also has the model training code.
   ENV: This folder contains the instruction and the env file to re-create the conda environment.
   app: This is the final project directory that has the trained model, web back-end and front-end files
 
